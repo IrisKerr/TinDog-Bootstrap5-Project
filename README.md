@@ -5,3 +5,7 @@ Here is my solution to the TinDog project proposed by Angela Yu (London App Brew
 ### Infos
 
 This project was made using **Bootstrap 5**
+
+### Overview
+
+![Desktop view](./desktop-view.png)
