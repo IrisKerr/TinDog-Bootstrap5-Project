@@ -40,13 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
@@ -172,7 +172,7 @@
             <h3>Chihuahua</h3>
           </div>
           <div class="card-body">
-            <h2>Free</h2>
+            <h2 class="card-body__title">Free</h2>
             <p>5 Matches Per Day</p>
             <p>10 Messages Per Day</p>
             <p>Unlimited App Usage</p>
@@ -187,7 +187,7 @@
             <h3>Labrador</h3>
           </div>
           <div class="card-body">
-            <h2>$49 / mo</h2>
+            <h2 class="card-body__title">$49 / mo</h2>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -203,7 +203,7 @@
             <h3>Mastiff</h3>
           </div>
           <div class="card-body">
-            <h2>$99 / mo</h2>
+            <h2 class="card-body__title">$99 / mo</h2>
             <p>Pirority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
@@ -223,10 +223,13 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <div class="container-fluid">
+      <h3 class="cta__title">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="btn btn-dark btn-lg download-button" type="button"><i
+          class="fa-brands fa-apple"></i>Download</button>
+      <button class="btn btn-light btn-lg download-button" type="button"><i
+          class="fa-brands fa-google-play"></i>Download</button>
+    </div>
   </section>
 
 
@@ -234,7 +237,12 @@
 
   <footer id="footer">
 
+    <i class="social-icon fa-brands fa-twitter"></i>
+    <i class="social-icon fa-brands fa-facebook-f"></i>
+    <i class="social-icon fa-brands fa-instagram"></i>
+    <i class="social-icon fa-solid fa-envelope"></i>
     <p>© Copyright TinDog</p>
+    </div>
 
   </footer>
 
